@@ -7,13 +7,9 @@ A Rails delivery method that does nothing.
 In you `Gemfile` :
 
 ```ruby
-gem "null_delivery"
-```
-
-Or :
-
-```
-gem install null_delivery
+group :development do
+  gem "null_delivery"
+end
 ```
 
 ## Configuration
